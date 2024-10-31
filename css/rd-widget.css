@@ -1,0 +1,48 @@
+.related_docs_widget li a{
+	display:inline-block;
+	line-height:18px;
+	padding:8px 0;
+	padding-left:20px !important;
+	background:transparent url(../images/unk.png) center left no-repeat;
+	margin:0 5px;
+}
+
+.related_docs_widget a[href$='.pdf'] {
+background:transparent url(../images/pdf.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.xls'],.related_docs_widget a[href$='.xlsx'],.related_docs_widget a[href$='.csv'],.related_docs_widget a[href$='.xlt'],.related_docs_widget a[href$='.xlw'] {
+background:transparent url(../images/xls.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.ppt'],.related_docs_widget a[href$='.pptx'],.related_docs_widget a[href$='.pps'] {
+background:transparent url(../images/ppt.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.doc'],.related_docs_widget a[href$='.docx'],.related_docs_widget a[href$='.rtf'],.related_docs_widget a[href$='.txt'],.related_docs_widget a[href$='.wps'] {
+background:transparent url(../images/doc.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.zip'],.related_docs_widget a[href$='.gzip'],.related_docs_widget a[href$='.rar'] {
+background:transparent url(../images/zip.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.jpg']{
+background:transparent url(../images/jpg.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.gif']{
+background:transparent url(../images/gif.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.bmp']{
+background:transparent url(../images/bmp.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.mp3']{
+background:transparent url(../images/mp3.png) center left no-repeat;
+}
+
+.related_docs_widget a[href$='.mpg'],.related_docs_widget a[href$='.wmv'],.related_docs_widget a[href$='.mpeg']{
+background:transparent url(../images/mpeg.png) center left no-repeat;
+}
